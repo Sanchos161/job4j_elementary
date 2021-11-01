@@ -7,7 +7,6 @@ public class Greeting {
         int year = 2021;
         String separate = " ";
         String id = idea + separate + line + separate + year;
-
         System.out.println(id);
     }
 }
