@@ -6,7 +6,7 @@ public class Greeting {
         String line  = "But I am a newbie";
         int year = 2021;
         String separate = " ";
-        String id = idea + separate + line + separate + year;
+        String id = idea + separate + line  + year;
         System.out.println(id);
     }
 }
