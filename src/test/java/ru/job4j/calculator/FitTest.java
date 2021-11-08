@@ -1,9 +1,7 @@
 package ru.job4j.calculator;
 import static ru.job4j.math.MathFunction.*;
-
 import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.Fit;
 
 public class FitTest {
 
