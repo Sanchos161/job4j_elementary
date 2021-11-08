@@ -1,5 +1,5 @@
 package ru.job4j.calculator;
-import static ru.job4j.math.MathFunction.*;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -20,5 +20,4 @@ public class FitTest {
         double out = Fit.womanWeight(in);
         Assert.assertEquals(expected, out, 0.01);
     }
-
 }
