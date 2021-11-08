@@ -1,5 +1,5 @@
 package ru.job4j.condition;
-import static ru.job4j.math.MathFunction.*;
+
 import org.junit.Assert;
 import org.junit.Test;
 

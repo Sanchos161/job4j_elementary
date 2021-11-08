@@ -5,7 +5,7 @@ public class X2 {
         return a * x * x + b * x + c;
     }
 
-    public static void whenA10B0C0X2Then40(String[] args) {
+    public static void main(String[] args) {
         int a = 10;
         int b = 0;
         int c = 0;
