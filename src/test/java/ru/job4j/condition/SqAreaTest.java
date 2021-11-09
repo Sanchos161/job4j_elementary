@@ -1,10 +1,7 @@
 package ru.job4j.condition;
-import static ru.job4j.math.MathFunction.*;
+
 import org.junit.Assert;
 import org.junit.Test;
-
-
-import static org.junit.Assert.*;
 
 public class SqAreaTest {
 
@@ -18,7 +15,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenP6K1Square2() {
+    public void whenP6K1Square2dot25() {
         double expected = 2.25;
         int p = 6;
         double k = 1;
@@ -27,7 +24,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenP3K1Square3() {
+    public void whenP3K1Square0dot56() {
        double expected = 0.5625;
         int p = 3;
         double k = 1;
