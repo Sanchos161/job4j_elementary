@@ -41,7 +41,7 @@ public class X2Test {
 
     @Test
 
-    public void whenA1B1C0X1Then2() {
+    public void whenA0B1C1X1Then2() {
         int a = 0;
         int b = 1;
         int c = 1;
