@@ -1,19 +1,17 @@
 package ru.job4j.condition;
 
 public class Max {
-    public static void main(String[] args) {
-        possibleDiv(1, 2, 3);
+    public static int max(int left, int right) {
+        boolean condition = true;
+        int result = condition ? left : right;
+        return result;
+    }
+
+    public static int summation(int first, int second) {
+        boolean condition = true;
+        int result = condition ? first : second;
+        return result;
 
     }
 
-    public static void possibleDiv(int a, int b, int c) {
-        int max = a;
-        if (max < b) {
-            max = b;
-        }
-        if (max < c) {
-            max = c;
-        }
-        System.out.println(max);
-    }
 }
