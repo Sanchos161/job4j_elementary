@@ -9,7 +9,7 @@ public class Max {
     }
 
     public static int summation(int first, int second) {
-        boolean condition = first > second;
+        boolean condition = first >= second;
         int result = condition ? first : second;
         return result;
 
