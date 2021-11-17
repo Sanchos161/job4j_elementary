@@ -25,4 +25,6 @@ public class LogicNot {
         return (!(num % 2 == 0) && num < 0);
 
     }
+
     }
+
