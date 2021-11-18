@@ -2,8 +2,6 @@ package ru.job4j.condition;
 
 public class Games {
     public static void permission(boolean allowByParent, boolean hasMoney) {
-        allowByParent = true;
-         hasMoney = true;
         if (allowByParent && hasMoney) {
             System.out.println("I can go to the cinema.");
         } else {
