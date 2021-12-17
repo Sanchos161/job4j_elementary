@@ -14,7 +14,7 @@ public class CounterTest {
     }
 
     @Test
-    public void sumByEven() {
+    public void whenSumEvenNumbersFromTwelveToTenThenFortyTwo() {
         int start = 2;
         int finish = 12;
         int result = Counter.sumByEven(start, finish);
